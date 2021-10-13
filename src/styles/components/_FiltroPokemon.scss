@@ -1,0 +1,34 @@
+.filtro-pokemon {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+
+  div {
+    cursor: pointer;
+    user-select: none;
+    display: inline-block;
+    border-radius: 16px;
+    padding: 8px 16px;
+    font: 500 14px 'Poppins', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 4px;
+  }
+
+  .botao-filtro {
+    cursor: pointer;
+    user-select: none;
+    display: inline-block;
+    border-radius: 16px;
+    padding: 8px 16px;
+    font: 700 14px 'Poppins', sans-serif;
+    text-transform: uppercase;
+    color: #222;
+    margin: 4px;
+  }
+
+  .desativado {
+    color: #aaa;
+    background: #ddd;
+  }
+}

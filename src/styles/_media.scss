@@ -1,0 +1,26 @@
+@media (max-width: 1240px) {
+  .home {
+    width: 100%;
+
+    h1 {
+      margin: 60px 24px 30px;
+    }
+
+    .lista-pokemon {
+      grid-template-columns: repeat(2, 1fr);
+      margin: 0 24px;
+    }
+
+    .filtro-pokemon {
+      margin: 0 24px 30px;
+    }
+  }
+}
+
+@media (max-width: 725px) {
+  .home {
+    .lista-pokemon {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+}

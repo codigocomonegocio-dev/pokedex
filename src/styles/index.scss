@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+@import 'reset';
+
+// Import das paginas
+@import 'pages/Home';
+
+// Import dos componentes
+@import 'components/FiltroPokemon';
+@import 'components/ListaPokemon';
+@import 'components/ItemPokemon';
+@import 'components/ItemColor';
+
+// Responsivo
+@import 'media';
